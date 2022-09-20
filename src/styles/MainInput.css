@@ -1,0 +1,38 @@
+.main_input {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  width: 100%;
+}
+
+.add_task_btn {
+  color: #fff;
+}
+.add_task_btn2 {
+  color: #fff;
+}
+.add_task_btn2:hover {
+  color: #cb3b3b;
+}
+.add_task_btn:hover {
+  color: #323232;
+}
+.dtask_input {
+  border: none;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+
+  appearance: none;
+  border-radius: 0.375rem;
+  outline: none;
+}
+.dtask_input:focus {
+  box-shadow: none;
+}

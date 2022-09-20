@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+body {
+  /* background: rgb(203, 95, 98);
+  background: linear-gradient(
+    27deg,
+    rgba(203, 95, 98, 1) 0%,
+    rgba(107, 7, 49, 1) 62%
+  );
+  background-repeat: no-repeat; */
+  background-color: #323232;
+}

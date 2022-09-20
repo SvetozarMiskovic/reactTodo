@@ -1,0 +1,18 @@
+.single_item {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  width: 100%;
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.ant-checkbox-checked::selection {
+  background-color: aqua;
+}
+
+.remove_btn:hover {
+  color: #323232;
+}

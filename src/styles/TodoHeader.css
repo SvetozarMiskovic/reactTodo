@@ -1,0 +1,78 @@
+.more_btn:hover,
+.more_btn:focus {
+  color: #323232;
+}
+
+.more_btn {
+  color: #fff;
+}
+
+.sub_text {
+  color: #323232;
+  font-style: italic;
+}
+.ant-drawer-title {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.name_part,
+.add_part,
+.added_part,
+input[type="text"] {
+  width: 100%;
+}
+.drawer_add_task {
+  width: 100%;
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: #cb3b3b !important ;
+}
+.ant-radio-checked .ant-radio-inner:after {
+  background-color: #cb3b3b;
+}
+.ant-radio-wrapper {
+  display: flex;
+  color: #fff;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+}
+.list_buttons {
+  flex-wrap: wrap;
+}
+.clear_btn {
+  margin-bottom: 1rem;
+}
+@media (max-width: 900px) {
+  .ant-drawer-body {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+  }
+
+  .ant-drawer-body > div {
+    width: 100%;
+  }
+
+  .ant-drawer-body div > input[type="text"] {
+    width: 100%;
+  }
+  .drawer_add_task {
+    width: 100%;
+  }
+  .top_part {
+    display: flex;
+    flex-direction: column;
+  }
+  .list_buttons {
+    overflow-y: scroll;
+    max-height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .clear_btn {
+    width: 100%;
+  }
+}
